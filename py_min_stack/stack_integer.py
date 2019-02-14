@@ -37,6 +37,6 @@ class Stack:
                 return self.current_minimum
 
     def find_min(self):
-        if not stack:
+        if not self.stack:
             return IndexError
         return self.current_minimum

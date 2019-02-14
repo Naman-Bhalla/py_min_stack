@@ -5,7 +5,7 @@ Python implementation of a Stack that supports find_min() alongwith usual stack 
 The time and space complexities of find_min() are as follows:
 
   - O(1) Amortized Time
-  - O(1) Space
+  - O(1) Space (For Integers), O(n) Space (Generalized) [n = size of stack]
 
 Push, Pop are O(1) time as usual.
 
