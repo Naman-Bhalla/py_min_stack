@@ -28,3 +28,6 @@ class Stack:
             return self.stack[-1][0]
         else:
             raise IndexError
+
+    def __len__(self):
+        return len(self.stack)

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py_min_stack-naman-bhalla",
-    version="0.0.1",
+    version="0.0.2",
     author="Naman Bhalla",
     author_email="namanbhalla1998@gmail.com",
     description="An Implementation of a Stack with O(1) find-min",
