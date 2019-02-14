@@ -40,3 +40,6 @@ class Stack:
         if not self.stack:
             return IndexError
         return self.current_minimum
+
+    def __len__(self):
+        return len(self.stack)
